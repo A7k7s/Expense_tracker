@@ -1,16 +1,85 @@
-# React + Vite
+# 💰 Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A simple and responsive **Expense Tracker** built with React.js to manage income and expenses.
 
-Currently, two official plugins are available:
+## ✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* Add income and expenses
+* Add description, amount, category, and date
+* View total income
+* View total expenses
+* View current balance
+* Search transactions
+* Filter transactions
+* Delete transactions
+* Store data using Local Storage
+* Responsive user interface
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* React.js
+* JavaScript
+* HTML
+* CSS
+* Local Storage
+* Vite
 
-## Expanding the Oxlint configuration
+## 📚 React Concepts Used
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+This project helped me practice:
+
+* Components
+* Props
+* `useState`
+* `useEffect`
+* Event Handling
+* Conditional Rendering
+* Form Handling
+* `map()`
+* `filter()`
+* `reduce()`
+* Local Storage
+
+## 🚀 Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/your-username/expense-tracker.git
+```
+
+### Install dependencies
+
+```bash
+npm install
+```
+
+### Run the project
+
+```bash
+npm run dev
+```
+
+The application will be available at:
+
+```text
+http://localhost:5173
+```
+
+## 📸 Preview
+
+Add a screenshot of the application here.
+
+## 🔮 Future Improvements
+
+* Add expense charts
+* Add edit transaction functionality
+* Add monthly expense reports
+* Add CSV export
+* Add dark mode
+
+## 👩‍💻 Author
+
+**Your Name**
+
+Built as a React.js learning project.
